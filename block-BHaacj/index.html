@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <div> <img src="assets\logo.png" alt="logo">
+                <em>journey</em>
+            </div>
+            <nav>
+                <ol class="flex">
+                    <li><a class="nav-home" href="#">home</a></li>
+                    <li><a  href="#">top destinations</a></li>
+                    <li><a href="#">recommended places</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <div class="bg-image">
+                <div class="center">
+                    <h1>lets begin</h1>
+                    <img class="dot-img" src="assets/dots-3.png" alt="">
+                    <h2>we assist you to chose the best</h2>
+                </div>
+                <div class=".container">
+                    <form action="index.html" method="POST">
+                        <fieldset>
+                            <label for="choose your destination">choose your destination</label><br>
+                            <input class="input" type="text" name="text" id="choose your destination" placeholder="type your destination" required> <br>
+
+                            <label for="check in date">check in date"</label><br>
+                            <input class="input" type="date" name="date" id="check in date" placeholder="check in" required>
+
+                            <label for="check out date">check in date"</label>
+                            <input class="input" type="date" name="date" id="check out date" placeholder="check out" required>
+                            <div>
+                                 <select name="how many rooms" id="how many rooms">
+                                <option value="room1">room1</option>
+                                <option value="room1">room2</option>
+                                <option value="room1">room3</option>
+                                <option value="room1">room4</option>
+                            </select>
+                            <label for="adult">adult</label>
+                            <select name="adult" id="adult">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <label for="children">children"</label>
+                            <select name="chidren" id="children">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <button>check availability</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="center">
+                <h3>your journey is our priority</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed inventore dolores minus praesentium neque exercitationem libero, velit molestias quam </p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam vel nobis, cum officia ipsam suscipit rem illo sint praesentium, maxime facilis odit! Ipsa quidem sapiente voluptas obcaecati? Libero, quas nam.</p>
+                <button>continue explore</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
