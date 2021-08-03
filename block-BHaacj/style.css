@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----start-----*/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+	/* border: 2px solid black; */
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	background-color: #ffff;
+	padding: 30px;
+}
+
+nav a{
+	color: black;
+	font-size: 18px;
+	margin-right:50px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+em {
+	font-size: 38px;
+    color: black;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.nav-home {
+	color: #69C6BA;
+}
+
+/*------main-----*/
+
+.bg-image {
+	background:linear-gradient(to right,rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.657)),url(../block-BHaacj/assets/banner.jpg),no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+h1 {
+	font-size: 64px;
+	color: #ffff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+h2 {
+	font-size: 32px;
+	color: #ffff;
+}
+.center {
+	align-items: center;
+	text-align: center;
+}
+
+form{
+	background-color: #F5F5F5;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.input {
+	width: 30%;
+	padding: 10px;
+	border: 0;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #69C6BA;
+	text-transform: uppercase;
+	border: none;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
